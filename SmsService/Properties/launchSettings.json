@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ServiceNode": {
+      "commandName": "Project",
+      "workingDirectory": "C:\\BlockchainProjects\\PayBySMS\\SmsService\\bin\\Debug\\netcoreapp2.2"
+    }
+  }
+}

@@ -21,6 +21,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Core.DataEntities\Core.DataEntities.csproj" />
     <ProjectReference Include="..\Core\Core.csproj">
       <Private>true</Private>
     </ProjectReference>

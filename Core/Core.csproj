@@ -1,7 +1,6 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp2.2</TargetFramework>
   </PropertyGroup>
 
@@ -9,7 +8,6 @@
     <PackageReference Include="Akka" Version="1.3.11" />
     <PackageReference Include="Akka.DI.AutoFac" Version="1.3.9" />
     <PackageReference Include="Akka.DI.Core" Version="1.3.11" />
-    <PackageReference Include="Akka.Persistence" Version="1.3.11" />
     <PackageReference Include="Akka.Persistence.MongoDb" Version="1.3.5" />
     <PackageReference Include="Akka.Remote" Version="1.3.11" />
     <PackageReference Include="Autofac" Version="4.9.1" />
@@ -18,18 +16,6 @@
     <PackageReference Include="RawRabbit.Attributes" Version="1.10.4" />
     <PackageReference Include="RawRabbit.DependencyInjection.Autofac" Version="1.10.4" />
     <PackageReference Include="RawRabbit.Extensions" Version="1.10.4" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Core\Core.csproj">
-      <Private>true</Private>
-    </ProjectReference>
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Update="app.config">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
   </ItemGroup>
 
 </Project>
